@@ -1,8 +1,8 @@
 package main
 
 import (
-	"go-template-cli/cmd"
-	_ "go-template-cli/internal/config"
+	"project-scaffolder-cli/cmd"
+	_ "project-scaffolder-cli/internal/config"
 )
 
 func main() {

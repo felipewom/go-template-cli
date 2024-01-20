@@ -5,8 +5,8 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "template-cli",
-	Short: "Template CLI tool to clone a base project from a public GitHub repo",
+	Use:   "scaffolder",
+	Short: "Project Scaffolder CLI tool to clone a base project from a public GitHub repo",
 }
 
 func Execute() error {

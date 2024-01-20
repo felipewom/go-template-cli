@@ -1,7 +1,7 @@
-# Go Template CLI
+# Project Scaffolder CLI
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Donate-orange.svg)](https://www.buymeacoffee.com/felipewom) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-🚀 **Go Template CLI** is a command-line tool designed to streamline the process of creating projects from templates hosted on public GitHub repositories. 
+🚀 **Project Scaffolder CLI** is a command-line tool designed to streamline the process of creating projects from templates hosted on public GitHub repositories. 
 
 With interactive prompts, it allows users to easily choose a base project, clone it, and perform customizable substitutions within the project files. 
 
@@ -19,13 +19,13 @@ The tool supports a variety of file types commonly found in software projects.
 
 1. Clone the repository.
 2. Build the executable (`make build`).
-3. Run the CLI tool (`./template-cli`).
+3. Run the CLI tool (`./scaffolder`).
 
 ## Usage Example
 
 ```bash
 # Clone a project template and perform word substitution
-./template-cli
+./scaffolder
 ```
 
 ## Contributing

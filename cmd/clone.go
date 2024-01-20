@@ -18,7 +18,7 @@ import (
 func init() {
 	rootCmd.Run = func(cmd *cobra.Command, args []string) {
 		// This is just for better user interaction
-		fmt.Println("GitHub Repository Cloning Tool")
+		fmt.Println("Project Scaffolder CLI Tool")
 		fmt.Println("")
 
 		// Extract the repository name from the URL
