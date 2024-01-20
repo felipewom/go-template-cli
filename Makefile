@@ -1,4 +1,4 @@
-# Makefile for Go CLI Project
+# Makefile for Project Scaffolder CLI
 
 .DEFAULT_GOAL := help
 
@@ -6,8 +6,8 @@
 help:
 	@echo "Available targets:"
 	@echo "  install    - Install project dependencies"
-	@echo "  build      - Build the Template CLI tool"
-	@echo "  run        - Run the Template CLI tool"
+	@echo "  build      - Build the Project Scaffolder CLI tool"
+	@echo "  run        - Run the Project Scaffolder CLI tool"
 	@echo "  clean      - Clean up build artifacts"
 
 .PHONY: install
@@ -16,13 +16,13 @@ install:
 
 .PHONY: build
 build: install
-	go build -ldflags="-buildmode=exe -s -w -X main.version=dev" -mod=mod -o template-cli
+	go build -ldflags="-buildmode=exe -s -w -X main.version=dev" -mod=mod -o scaffolder
 
 .PHONY: run
 run: build
-	./template-cli
+	./scaffolder
 
 .PHONY: clean
 clean:
 	go clean -mod=mod
-	rm -f ./template-cli
+	rm -f ./scaffolder

@@ -1,4 +1,4 @@
-module go-template-cli
+module project-scaffolder-cli
 
 go 1.21
 
