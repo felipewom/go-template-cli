@@ -1,5 +1,5 @@
 # Go Template CLI
-[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Donate-orange.svg)](https://www.buymeacoffee.com/yourusername) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Donate-orange.svg)](https://www.buymeacoffee.com/felipewom) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 🚀 **Go Template CLI** is a command-line tool designed to streamline the process of creating projects from templates hosted on public GitHub repositories. 
 
